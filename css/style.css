@@ -600,7 +600,7 @@ body {
   margin: 1rem; }
 
 .navigation__link:link, .navigation__link:visited {
-  display: inline-block;
+  display: none;
   font-size: 3rem;
   font-weight: 300;
   padding: 1rem 2rem;
