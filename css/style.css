@@ -555,7 +555,7 @@ body {
     display: table-cell; }
     @media (max-width: 75em) {
       .popup__left {
-        display: table-row-group; } }
+        display: table-row; } }
   .popup__right {
     width: 66.6666667%;
     display: table-cell;
@@ -563,7 +563,14 @@ body {
     padding: 3rem 5rem; }
     @media (max-width: 75em) {
       .popup__right {
-        display: table-row-group; } }
+        display: table-row; } }
+  @media (max-width: 75em) {
+    .popup__upper-cell {
+      display: table-cell; } }
+  @media (max-width: 75em) {
+    .popup__lower-cell {
+      display: table-cell;
+      padding: 3rem 5rem; } }
   @media (max-width: 75em) {
     .popup__frame {
       display: inline-block;
