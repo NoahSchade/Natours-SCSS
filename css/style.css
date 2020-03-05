@@ -550,6 +550,9 @@ body {
     @media (max-width: 75em) {
       .popup__content {
         margin-top: calc(40rem - 50vh); } }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        margin-top: calc(85rem - 50vh - 60vw); } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -594,6 +597,10 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 37.5em) {
+      .popup__text {
+        -moz-column-count: 1;
+        column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }

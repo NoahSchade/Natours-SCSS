@@ -27,6 +27,10 @@
         @include respond(tab-land) {
             margin-top: calc(40rem - 50vh);
         }
+
+        @include respond(phone) {
+            margin-top: calc(85rem - 50vh - 60vw);
+        }
     }
 
     &__left {
@@ -96,6 +100,11 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(phone) {
+            -moz-column-count: 1;
+            column-count: 1;
+        }
     }
 
     // Open states
