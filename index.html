@@ -370,8 +370,12 @@
         <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
-                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                    <div class="popup__frame">
+                        <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img popup__img--1">
+                    </div><!--  This comment is here to remove the space between the 2 images in firefox and microsoft edge
+                 --><div class="popup__frame">
+                        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img popup__img--2">
+                    </div>
                 </div>
                 <div class="popup__right">
                     <a href="#section-tours" class="popup__close">&times;</a>
